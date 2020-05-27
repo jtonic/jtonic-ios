@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D362DA58247D8DC000E0A139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362DA57247D8DC000E0A139 /* AppDelegate.swift */; };
+		D362DA5A247D8DC000E0A139 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362DA59247D8DC000E0A139 /* SceneDelegate.swift */; };
+		D362DA5C247D8DC000E0A139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362DA5B247D8DC000E0A139 /* ViewController.swift */; };
+		D362DA5F247D8DC000E0A139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D362DA5D247D8DC000E0A139 /* Main.storyboard */; };
+		D362DA61247D8DC300E0A139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D362DA60247D8DC300E0A139 /* Assets.xcassets */; };
+		D362DA64247D8DC300E0A139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D362DA62247D8DC300E0A139 /* LaunchScreen.storyboard */; };
+		D362DA6F247D8DC300E0A139 /* jtonic_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362DA6E247D8DC300E0A139 /* jtonic_iosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D362DA6B247D8DC300E0A139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D362DA4C247D8DC000E0A139 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D362DA53247D8DC000E0A139;
+			remoteInfo = "jtonic-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D362DA54247D8DC000E0A139 /* jtonic-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jtonic-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D362DA57247D8DC000E0A139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D362DA59247D8DC000E0A139 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D362DA5B247D8DC000E0A139 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D362DA5E247D8DC000E0A139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D362DA60247D8DC300E0A139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D362DA63247D8DC300E0A139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D362DA65247D8DC300E0A139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D362DA6A247D8DC300E0A139 /* jtonic-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jtonic-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D362DA6E247D8DC300E0A139 /* jtonic_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jtonic_iosTests.swift; sourceTree = "<group>"; };
+		D362DA70247D8DC300E0A139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D362DA51247D8DC000E0A139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D362DA67247D8DC300E0A139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D362DA4B247D8DC000E0A139 = {
+			isa = PBXGroup;
+			children = (
+				D362DA56247D8DC000E0A139 /* jtonic-ios */,
+				D362DA6D247D8DC300E0A139 /* jtonic-iosTests */,
+				D362DA55247D8DC000E0A139 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D362DA55247D8DC000E0A139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D362DA54247D8DC000E0A139 /* jtonic-ios.app */,
+				D362DA6A247D8DC300E0A139 /* jtonic-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D362DA56247D8DC000E0A139 /* jtonic-ios */ = {
+			isa = PBXGroup;
+			children = (
+				D362DA57247D8DC000E0A139 /* AppDelegate.swift */,
+				D362DA59247D8DC000E0A139 /* SceneDelegate.swift */,
+				D362DA5B247D8DC000E0A139 /* ViewController.swift */,
+				D362DA5D247D8DC000E0A139 /* Main.storyboard */,
+				D362DA60247D8DC300E0A139 /* Assets.xcassets */,
+				D362DA62247D8DC300E0A139 /* LaunchScreen.storyboard */,
+				D362DA65247D8DC300E0A139 /* Info.plist */,
+			);
+			path = "jtonic-ios";
+			sourceTree = "<group>";
+		};
+		D362DA6D247D8DC300E0A139 /* jtonic-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				D362DA6E247D8DC300E0A139 /* jtonic_iosTests.swift */,
+				D362DA70247D8DC300E0A139 /* Info.plist */,
+			);
+			path = "jtonic-iosTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D362DA53247D8DC000E0A139 /* jtonic-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D362DA73247D8DC300E0A139 /* Build configuration list for PBXNativeTarget "jtonic-ios" */;
+			buildPhases = (
+				D362DA50247D8DC000E0A139 /* Sources */,
+				D362DA51247D8DC000E0A139 /* Frameworks */,
+				D362DA52247D8DC000E0A139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jtonic-ios";
+			productName = "jtonic-ios";
+			productReference = D362DA54247D8DC000E0A139 /* jtonic-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D362DA69247D8DC300E0A139 /* jtonic-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D362DA76247D8DC300E0A139 /* Build configuration list for PBXNativeTarget "jtonic-iosTests" */;
+			buildPhases = (
+				D362DA66247D8DC300E0A139 /* Sources */,
+				D362DA67247D8DC300E0A139 /* Frameworks */,
+				D362DA68247D8DC300E0A139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D362DA6C247D8DC300E0A139 /* PBXTargetDependency */,
+			);
+			name = "jtonic-iosTests";
+			productName = "jtonic-iosTests";
+			productReference = D362DA6A247D8DC300E0A139 /* jtonic-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D362DA4C247D8DC000E0A139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Antonel Pazargic";
+				TargetAttributes = {
+					D362DA53247D8DC000E0A139 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D362DA69247D8DC300E0A139 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = D362DA53247D8DC000E0A139;
+					};
+				};
+			};
+			buildConfigurationList = D362DA4F247D8DC000E0A139 /* Build configuration list for PBXProject "jtonic-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D362DA4B247D8DC000E0A139;
+			productRefGroup = D362DA55247D8DC000E0A139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D362DA53247D8DC000E0A139 /* jtonic-ios */,
+				D362DA69247D8DC300E0A139 /* jtonic-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D362DA52247D8DC000E0A139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D362DA64247D8DC300E0A139 /* LaunchScreen.storyboard in Resources */,
+				D362DA61247D8DC300E0A139 /* Assets.xcassets in Resources */,
+				D362DA5F247D8DC000E0A139 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D362DA68247D8DC300E0A139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D362DA50247D8DC000E0A139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D362DA5C247D8DC000E0A139 /* ViewController.swift in Sources */,
+				D362DA58247D8DC000E0A139 /* AppDelegate.swift in Sources */,
+				D362DA5A247D8DC000E0A139 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D362DA66247D8DC300E0A139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D362DA6F247D8DC300E0A139 /* jtonic_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D362DA6C247D8DC300E0A139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D362DA53247D8DC000E0A139 /* jtonic-ios */;
+			targetProxy = D362DA6B247D8DC300E0A139 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D362DA5D247D8DC000E0A139 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D362DA5E247D8DC000E0A139 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D362DA62247D8DC300E0A139 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D362DA63247D8DC300E0A139 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D362DA71247D8DC300E0A139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D362DA72247D8DC300E0A139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D362DA74247D8DC300E0A139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZC8RVN847;
+				INFOPLIST_FILE = "jtonic-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ro.jtonic.apple.jtonic-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D362DA75247D8DC300E0A139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZC8RVN847;
+				INFOPLIST_FILE = "jtonic-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ro.jtonic.apple.jtonic-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D362DA77247D8DC300E0A139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZC8RVN847;
+				INFOPLIST_FILE = "jtonic-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ro.jtonic.apple.jtonic-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jtonic-ios.app/jtonic-ios";
+			};
+			name = Debug;
+		};
+		D362DA78247D8DC300E0A139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZC8RVN847;
+				INFOPLIST_FILE = "jtonic-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ro.jtonic.apple.jtonic-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jtonic-ios.app/jtonic-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D362DA4F247D8DC000E0A139 /* Build configuration list for PBXProject "jtonic-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D362DA71247D8DC300E0A139 /* Debug */,
+				D362DA72247D8DC300E0A139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D362DA73247D8DC300E0A139 /* Build configuration list for PBXNativeTarget "jtonic-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D362DA74247D8DC300E0A139 /* Debug */,
+				D362DA75247D8DC300E0A139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D362DA76247D8DC300E0A139 /* Build configuration list for PBXNativeTarget "jtonic-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D362DA77247D8DC300E0A139 /* Debug */,
+				D362DA78247D8DC300E0A139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D362DA4C247D8DC000E0A139 /* Project object */;
+}
