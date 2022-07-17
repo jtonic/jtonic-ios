@@ -17,6 +17,11 @@ class ViewController: UIViewController {
     
     //MARK: Actions
     @IBAction func onTouchInside(_ sender: UIButton) {
+        let jtonic = Person(firstName: "Antonel", lastName: "Pazargic")
+        print("Greeting", jtonic.name)
+        print("Hello", "swift", "world!!!", separator: "   ")
+
+
         txtMessage.text = "Fox team is the best!"
     }
     
@@ -24,7 +29,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+}
 
+struct Person {
+    var firstName: String
+    var lastName: String
+    var age: Int = 20
+}
 
+extension Person {
+
+    var name: String {
+        "\(self.firstName) \(self.lastName)"
+    }
 }
 
