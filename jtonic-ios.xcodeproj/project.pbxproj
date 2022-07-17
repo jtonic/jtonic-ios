@@ -16,6 +16,7 @@
 		D362DA61247D8DC300E0A139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D362DA60247D8DC300E0A139 /* Assets.xcassets */; };
 		D362DA64247D8DC300E0A139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D362DA62247D8DC300E0A139 /* LaunchScreen.storyboard */; };
 		D362DA6F247D8DC300E0A139 /* jtonic_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D362DA6E247D8DC300E0A139 /* jtonic_iosTests.swift */; };
+		E2E151172884172A00E841F6 /* Jwt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E151162884172A00E841F6 /* Jwt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D362DA6A247D8DC300E0A139 /* jtonic-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jtonic-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D362DA6E247D8DC300E0A139 /* jtonic_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jtonic_iosTests.swift; sourceTree = "<group>"; };
 		D362DA70247D8DC300E0A139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E151162884172A00E841F6 /* Jwt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jwt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				D362DA60247D8DC300E0A139 /* Assets.xcassets */,
 				D362DA62247D8DC300E0A139 /* LaunchScreen.storyboard */,
 				D362DA65247D8DC300E0A139 /* Info.plist */,
+				E2E151162884172A00E841F6 /* Jwt.swift */,
 			);
 			path = "jtonic-ios";
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D362DA5C247D8DC000E0A139 /* ViewController.swift in Sources */,
+				E2E151172884172A00E841F6 /* Jwt.swift in Sources */,
 				D362DA58247D8DC000E0A139 /* AppDelegate.swift in Sources */,
 				D362DA5A247D8DC000E0A139 /* SceneDelegate.swift in Sources */,
 			);
@@ -491,10 +495,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "ro.jtonic.apple.jtonic-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -512,10 +517,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "ro.jtonic.apple.jtonic-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

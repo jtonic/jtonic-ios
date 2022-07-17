@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  jtonic-ios
-//
-//  Created by Antonel Pazargic on 26/05/2020.
-//  Copyright © 2020 Antonel Pazargic. All rights reserved.
-//
 
 import UIKit
 import UserNotifications
@@ -32,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-    
+
     func registerForPushNotification() {
         UNUserNotificationCenter.current()
           .requestAuthorization(
@@ -42,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self?.getNotificationSettings()
           }
     }
-    
+
     func getNotificationSettings() {
       UNUserNotificationCenter.current().getNotificationSettings { settings in
           print("Notification settings: \(settings)")
@@ -52,16 +45,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
           }
       }
     }
-    
+
     func application(
       _ application: UIApplication,
       didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
     ) {
       let tokenParts = deviceToken.map { data in String(format: "%02.2hhx", data) }
       let token = tokenParts.joined()
+      Jwt.INSTANCE.value = token
       print("Device Token: \(token)")
     }
-    
+
     func application(
       _ application: UIApplication,
       didFailToRegisterForRemoteNotificationsWithError error: Error
