@@ -251,3 +251,6 @@ hs_err_pid*
 
 ## vscode
 .vscode/
+
+## Tmp folder
+.tmp/
